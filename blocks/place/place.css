@@ -25,6 +25,7 @@
     .place {
         margin-bottom: 10.1%;
         column-gap: 3.64%;
+    }
 }
 
 @media screen and (max-width: 490px) {
