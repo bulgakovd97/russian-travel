@@ -1,0 +1,12 @@
+.footer__columns {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 490px) {
+    .footer__columns {
+        display: block;
+    }
+}

@@ -1,0 +1,10 @@
+.intro__list-def {
+    display: inline;
+    margin: 0;
+    font-weight: normal;
+}
+
+.intro__list-def::after {
+    display: block;
+    content: "";
+}

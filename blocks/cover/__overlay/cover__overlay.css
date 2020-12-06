@@ -1,0 +1,35 @@
+.cover__overlay {
+    width: 100%;
+    height: 62.5vw;
+    max-height: 740px;
+    position: relative;
+    overflow: hidden;
+}
+
+.cover__overlay::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #2A2C2F;
+    opacity: 0.3;
+    transition: opacity 0.1s linear;
+}
+
+.cover__overlay:hover::before {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 490px) {
+    .cover__overlay {
+        max-width: 320px;
+        max-height: 200px;
+    }
+
+    .cover__overlay::before {
+        max-width: 320px;
+        max-height: 200px;
+    }
+}

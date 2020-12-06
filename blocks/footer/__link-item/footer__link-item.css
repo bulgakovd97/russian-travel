@@ -1,0 +1,24 @@
+.footer__link-item {
+    margin-right: 18px;
+    opacity: 1;
+    transition: opacity 0.1s linear;
+}
+
+.footer__link-item:last-of-type {
+    margin-right: 0;
+}
+
+.footer__link-item:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 490px) {
+    .footer__link-item {
+        margin-bottom: 10%;
+        margin-right: 0;
+    }
+
+    .footer__link-item:last-of-type {
+        margin-bottom: 0;
+    }
+}

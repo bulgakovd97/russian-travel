@@ -1,0 +1,30 @@
+.container {
+    max-width: 1184px;
+    margin: 0 auto;
+    padding: 28px 48px 24px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding-left: 3.125%;
+        padding-right: 3.125%;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .container {
+        max-width: 320px;
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}

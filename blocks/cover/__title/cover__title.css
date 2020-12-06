@@ -1,0 +1,53 @@
+.cover__title {
+    width: 51.6875%;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 76px;
+    text-align: center;
+    margin: 20.75% auto 2.71%;
+    position: relative;
+    opacity: 1;
+    transition: opacity 0.1s linear;
+}
+
+.cover__title:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1050px) {
+    .cover__title {
+        width: 54.6875%;
+        margin-top: 19.04%;
+        margin-bottom: 3.125%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .cover__title {
+        width: 61.92%;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .cover__title {
+        width: 70.92%;
+        margin-top: 14.97%;
+        margin-bottom: 4.17%;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .cover__title {
+        width: 85%;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .cover__title {
+        width: 75%;
+        margin-top: 10.3125%;
+        margin-bottom: 5%;
+    }
+}

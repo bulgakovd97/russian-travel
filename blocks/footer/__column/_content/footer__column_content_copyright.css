@@ -1,0 +1,9 @@
+.footer__column_content_copyright {
+    min-width: 14.19%;
+}
+
+@media screen and (max-width: 490px) {
+    .footer__column_content_copyright {
+        margin-top: 15%;
+    }
+}
