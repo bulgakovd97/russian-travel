@@ -1,7 +1,7 @@
 .header__lang-list-item {
     opacity: 1;
     transition: opacity 0.1s linear;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .header__lang-list-item:first-of-type {

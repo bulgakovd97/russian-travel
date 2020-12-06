@@ -18,7 +18,6 @@
         margin-bottom: 8.62%;
         grid-template-columns: 47.41% fit-content(49.14%);
         column-gap: 3.45%;
-        row-gap: 48px;
     }
 }
 
@@ -26,7 +25,6 @@
     .place {
         margin-bottom: 10.1%;
         column-gap: 3.64%;
-        row-gap: 48px;
 }
 
 @media screen and (max-width: 490px) {
@@ -38,4 +36,5 @@
         left: 50%;
         transform: translateX(-50%);
         margin-bottom: 18%;
+    }
 }
