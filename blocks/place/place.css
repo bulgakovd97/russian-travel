@@ -23,19 +23,16 @@
 
 @media screen and (max-width: 768px) {
     .place {
-        margin-bottom: 10.1%;
-        column-gap: 3.64%;
+        margin-bottom: 10.15%;
+        grid-template-columns: 47.5% fit-content(49.44%);
+        column-gap: 3.89%;
     }
 }
 
 @media screen and (max-width: 490px) {
     .place {
         display: block;
-        width: 100vw;
-        max-width: 320px;
-        position: relative;
-        left: 50%;
-        transform: translateX(-50%);
-        margin-bottom: 18%;
+        width: 100%;
+        margin-bottom: 15.3125%;
     }
 }

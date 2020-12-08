@@ -21,15 +21,3 @@
 .cover__overlay:hover::before {
     opacity: 0.8;
 }
-
-@media screen and (max-width: 490px) {
-    .cover__overlay {
-        max-width: 320px;
-        max-height: 200px;
-    }
-
-    .cover__overlay::before {
-        max-width: 320px;
-        max-height: 200px;
-    }
-}

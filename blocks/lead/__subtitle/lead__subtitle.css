@@ -9,7 +9,8 @@
 @media screen and (max-width: 1024px) {
     .lead__subtitle {
         width: 68.9%;
-        margin-bottom: 6.05%;
+        margin-top: 3.448%;
+        margin-bottom: 6.04%;
     }
 }
 
@@ -23,10 +24,10 @@
 
 @media screen and (max-width: 490px) {
     .lead__subtitle {
-        width: 70%;
+        width: 90%;
         font-size: 16px;
         line-height: 20px;
         margin-top: 5%;
-        margin-bottom: 40px;
+        margin-bottom: 12.5%;
     }
 }

@@ -8,6 +8,6 @@
 
 @media screen and (max-width: 490px) {
     .header__lang-list {
-        width: 62px;
+        max-width: 62px;
     }
 }

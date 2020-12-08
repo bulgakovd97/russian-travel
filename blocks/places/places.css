@@ -1,23 +1,28 @@
 .places {
-    margin: 7.77% 8.44%;
+    margin: 7.1875% auto;
+    width: 76.875%;
 }
 
 @media screen and (max-width: 1024px) {
     .places {
-        margin: 9.93% 0;
+        width: 90.625%;
+        margin-top: 8.984375%;
+        margin-bottom: 8.984375%;
     }
 }
 
 @media screen and (max-width: 768px) {
     .places {
-        margin-top: 12.3%;
-        margin-bottom: 12.3%;
+        margin-top: 11.458%;
+        margin-bottom: 11.71875%;
+        width: 93.75%;
     }
 }
 
 @media screen and (max-width: 490px) {
     .places {
-        margin-top: 22.5%;
-        margin-bottom: 22.5%;
+        margin-top: 20%;
+        margin-bottom: 20.625%;
+        width: 100%;
     }
 }

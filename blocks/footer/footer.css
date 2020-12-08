@@ -1,10 +1,27 @@
 .footer {
-    width: 100%;
+    width: 92.5%;
+    margin: 0 auto;
     margin-top: 7.78%;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        width: 90.625%;
+        margin-top: 8.984375%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        width: 93.75%;
+        margin-top: 11.458%;
+    }
 }
 
 @media screen and (max-width: 490px) {
     .footer {
+        width: 58.125%;
         margin-top: 20%;
+        margin-left: 5%;
     }
 }

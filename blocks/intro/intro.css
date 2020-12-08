@@ -1,31 +1,30 @@
 .intro {
-    margin-top: 7.77%;
-    margin-bottom: 7.77%;
-    margin-left: 8.446%;
-    max-width: 58.21%;
+    margin-top: 7.1875%;
+    margin-bottom: 7.1875%;
+    margin-left: 11.5625%;
+    max-width: 53.90625%;
 }
 
 @media screen and (max-width: 1024px) {
     .intro {
-        margin-top: 9.93%;
-        margin-bottom: 9.93%;
-        margin-left: 0;
-        max-width: 74.5%;
+        margin-top: 8.984375%;
+        margin-bottom: 8.984375%;
+        margin-left: 4.6875%;
+        max-width: 67.3828125%;
     }
 }
 
 @media screen and (max-width: 768px) {
     .intro {
-        margin-top: 12.3%;
-        margin-bottom: 12.3%;
-        margin-left: 0;
-        max-width: 100%;
+        max-width: 93.75%;
+        margin: 11.458% auto;
     }
 }
 
 @media screen and (max-width: 490px) {
     .intro {
-        margin-top: 22.5%;
-        margin-bottom: 22.5%;
+        margin-top: 20%;
+        margin-bottom: 20%;
+        max-width: 90%;
     }
 }
