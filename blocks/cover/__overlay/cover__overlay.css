@@ -1,9 +1,9 @@
 .cover__overlay {
     width: 100%;
-    height: 62.5vw;
-    max-height: 740px;
+    min-height: 740px;
     position: relative;
-    overflow: hidden;
+    padding-top: 20.75%;
+    box-sizing: border-box;
 }
 
 .cover__overlay::before {
@@ -20,4 +20,37 @@
 
 .cover__overlay:hover::before {
     opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__overlay {
+        padding-top: 19.04%;
+        min-height: 640px;
+    }
+}
+
+@media screen and (max-width: 817px) {
+    .cover__overlay {
+        padding-top: 21%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__overlay {
+        padding-top: 14.97%;
+        min-height: 480px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .cover__overlay {
+        padding-top: 19%;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .cover__overlay {
+        padding-top: 14.97%;
+        min-height: 200px;
+    }
 }

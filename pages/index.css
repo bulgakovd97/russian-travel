@@ -41,7 +41,6 @@
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__column/footer__column.css);
 @import url(../blocks/footer/__column/_content/footer__column_content_info.css);
-@import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
 @import url(../blocks/footer/__link-list/footer__link-list.css);
 @import url(../blocks/footer/__link-item/footer__link-item.css);
 @import url(../blocks/footer/__link/footer__link.css);

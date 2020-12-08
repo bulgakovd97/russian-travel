@@ -6,12 +6,6 @@
     text-align: center;
     margin: 0 auto;
     position: relative;
-    opacity: 1;
-    transition: opacity 0.1s linear;
-}
-
-.cover__subtitle:hover {
-    opacity: 0.8;
 }
 
 @media screen and (max-width: 1160px) {
@@ -28,7 +22,7 @@
 
 @media screen and (max-width: 690px) {
     .cover__subtitle {
-        width: 85%;
+        width: 56%;
         font-size: 14px;
         line-height: 16px;
     }
@@ -36,8 +30,8 @@
 
 @media screen and (max-width: 490px) {
     .cover__subtitle {
-        max-width: 83%;
-        font-size: 14px;
-        line-height: 16px;
+        width: 84%;
+        font-size: 10px;
+        line-height: 14px;
     }
 }
