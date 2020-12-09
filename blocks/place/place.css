@@ -13,6 +13,12 @@
     
 }
 
+@media screen and (max-width: 1060px) {
+    .place {
+        grid-template-columns: 47.74% fit-content(49.18%);
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .place {
         margin-bottom: 8.62%;
