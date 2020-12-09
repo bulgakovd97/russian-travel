@@ -3,13 +3,13 @@
     font-size: 96px;
     line-height: 100px;
     text-align: center;
-    width: 72.1%;
+    width: 75.1%;
     margin: 0 auto;
 }
 
 @media screen and (max-width: 1180px) {
     .lead__title {
-        width: 85%;
+        width: 87%;
     }
 }
 
@@ -33,40 +33,34 @@
 
 @media screen and (max-width: 768px) {
     .lead__title {
-        width: 93.75%;
+        width: 95.75%;
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 710px) {
     .lead__title {
-        width: 80%;
+        width: 83%;
         font-size: 70px;
         line-height: 74px;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 620px) {
     .lead__title {
-        width: 55%;
+        width: 54%;
         font-size: 40px;
         line-height: 44px;
     }
 }
 
+@media screen and (max-width: 520px) {
+    .lead__title {
+        width: 65%;
+    }
+}
+
 @media screen and (max-width: 490px) {
     .lead__title {
-        width: 90%;
-    }
-}
-
-@media screen and (max-width: 420px) {
-    .lead__title {
         width: 92%;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    .lead__title {
-        width: 90%;
     }
 }

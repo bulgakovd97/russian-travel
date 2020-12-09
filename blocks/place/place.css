@@ -24,7 +24,7 @@
 @media screen and (max-width: 768px) {
     .place {
         margin-bottom: 10.15%;
-        grid-template-columns: 47.5% fit-content(49.44%);
+        grid-template-columns: 48.5% fit-content(49.44%);
         column-gap: 3.89%;
     }
 }
