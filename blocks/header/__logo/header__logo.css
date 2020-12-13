@@ -9,3 +9,29 @@
         height: 42px;
     }
 }
+
+@keyframes translation-right {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(5px);
+    }
+}
+
+@keyframes translation-left {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-5px);
+    }
+}
+
+#map {
+    animation: translation-right 2s ease-in-out infinite alternate;
+}
+
+#text {
+    animation: translation-left 2s ease-in-out infinite alternate;
+}
